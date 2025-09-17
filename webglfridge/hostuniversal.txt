@@ -1,0 +1,4 @@
+Run:
+python3.12 -m http.server 8080
+Then go to:
+127.0.0.1:8080 or [ip]:8080

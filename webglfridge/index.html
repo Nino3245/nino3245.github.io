@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebGLFridge</title>
+<style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #0f0f0f;
+       }
+        h1 {
+            color: white;
+}
+        p {
+            color: white;
+}
+        canvas {
+            border: 2px solid #333;
+            background-color: #fff;
+        }
+        #magnetPalette {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(0,0,0,0.9);
+            padding: 10px;
+            border-radius: 8px;
+        }
+        #magnetPalette button {
+            margin: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div id="magnetPalette">
+<h1>WebGLFridge</h1>
+<p>Formerly GeLFridge</p>
+<!-- <a href="notes.html">Notes</a><br> -->
+<p>Faces</p>
+        <button data-magnet="happyFace">Happy Face</button><br>
+        <button data-magnet="sadFace">Sad Face</button><br>
+<p>Nikoji</p>
+        <button data-magnet="nikojiHappy">Nikoji Happy</button><br>
+        <button data-magnet="nikojiSad">Nikoji Sad</button><br>
+        <button data-magnet="nikojiAngry">Nikoji Angry</button><br>
+        <button data-magnet="nikojiMid">Nikoji Alright</button><br>
+        <button data-magnet="nikojiPeeved">Nikoji Mad</button><br>
+        <button data-magnet="nikojiSleep">Nikoji Sleep</button><br>
+        <button data-magnet="nikojiEvil">Nikoji Evil</button><br>
+        <button data-magnet="nikojiShocked">Nikoji Shocked</button><br>
+<p>Geometric Shapes</p>
+        <button data-magnet="squareMagnet">Square</button><br>
+        <button data-magnet="triangleMagnet">Triangle</button><br>
+        <button data-magnet="circleMagnet">Circle</button><br>
+        <button data-magnet="hexagonMagnet">Hexagon</button><br>
+        <button data-magnet="pentagon">Pentagon</button><br>
+        <button data-magnet="starMagnet">Star</button><br>
+        <button data-magnet="heart">Heart</button><br>
+<p>Utility</p>
+        <button data-magnet="note">Sticky Note</button><br>
+<p>Random</p>
+        <button data-magnet="selfPromo">GeLFridge Magnet</button><br>
+<p>Fridge Management</p>
+    <button id="clearButton">🗑️ Clear All</button><br>
+<button id="saveButton">💾 Save Image</button>
+    </div>
+    <canvas id="fridgeCanvas" width="800" height="600"></canvas>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>

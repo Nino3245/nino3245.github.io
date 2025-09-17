@@ -1,0 +1,186 @@
+[
+    {
+        "id": "happyFace",
+        "name": "Happy Face",
+        "type": "image",
+        "src": "magnets/happyFace.png",
+        "size": { "width": 50, "height": 50 },
+        "position": { "x": 100, "y": 100 }
+    },
+    {
+        "id": "note",
+        "name": "Sticky Note",
+        "type": "text",
+        "text": "Buy milk!",
+        "size": { "width": 100, "height": 100 },
+        "position": { "x": 200, "y": 150 }
+    },
+    {
+        "id": "sadFace",
+        "name": "Sad Face",
+        "type": "image",
+        "src": "magnets/sadFace.png",
+        "size": { "width": 50, "height": 50 },
+        "position": { "x": 100, "y": 100 }
+    },
+    {
+        "id": "selfPromo",
+        "name": "GeLFridge Magnet",
+        "type": "image",
+        "src": "magnets/selfPromo.png",
+        "size": { "width": 100, "height": 50 },
+        "position": { "x": 100, "y": 100 }
+    },
+    {
+        "id": "squareMagnet",
+        "name": "Square Magnet",
+        "type": "image",
+        "src": "magnets/square.png",
+        "size": { "width": 50, "height": 50 },
+        "position": { "x": 100, "y": 100 }
+    },
+    {
+        "id": "triangleMagnet",
+        "name": "Triangle Magnet",
+        "type": "image",
+        "src": "magnets/triangle.png",
+        "size": { "width": 50, "height": 50 },
+        "position": { "x": 100, "y": 100 }
+    },
+    {
+        "id": "circleMagnet",
+        "name": "Circle Magnet",
+        "type": "image",
+        "src": "magnets/circle.png",
+        "size": { "width": 50, "height": 50 },
+        "position": { "x": 100, "y": 100 }
+    },
+    {
+        "id": "hexagonMagnet",
+        "name": "Hexagon Magnet",
+        "type": "image",
+        "src": "magnets/hexagon.png",
+        "size": { "width": 50, "height": 50 },
+        "position": { "x": 100, "y": 100 }
+    },
+    {
+        "id": "starMagnet",
+        "name": "Star Magnet",
+        "type": "image",
+        "src": "magnets/star.png",
+        "size": { "width": 50, "height": 50 },
+        "position": { "x": 100, "y": 100 }
+    },
+    {
+        "id": "secret",
+        "name": "Secret Magnet",
+        "type": "image",
+        "src": "magnets/secret.png",
+        "size": { "width": 50, "height": 50 },
+        "position": { "x": 100, "y": 100 }
+    },
+    {
+        "id": "legacyCircle",
+        "name": "Legacy Circle",
+        "type": "image",
+        "src": "magnets/circle-old.png",
+        "size": { "width": 50, "height": 50 },
+        "position": { "x": 100, "y": 100 }
+    },
+    {
+        "id": "nikojiHappy",
+        "name": "Nikoji Happy",
+        "type": "image",
+        "src": "magnets/nikoji/nikojiHappy.png",
+        "size": { "width": 64, "height": 64 },
+        "position": { "x": 100, "y": 100 }
+    },
+    {
+        "id": "nikojiSad",
+        "name": "Nikoji Sad",
+        "type": "image",
+        "src": "magnets/nikoji/nikojiSad.png",
+        "size": { "width": 64, "height": 64 },
+        "position": { "x": 100, "y": 100 }
+    },
+    {
+        "id": "nikojiAngry",
+        "name": "Nikoji Angry",
+        "type": "image",
+        "src": "magnets/nikoji/nikojiAngry.png",
+        "size": { "width": 64, "height": 64 },
+        "position": { "x": 100, "y": 100 }
+    },
+    {
+        "id": "nikojiMid",
+        "name": "Nikoji Mid",
+        "type": "image",
+        "src": "magnets/nikoji/nikojiMid.png",
+        "size": { "width": 64, "height": 64 },
+        "position": { "x": 100, "y": 100 }
+    },
+    {
+        "id": "nikojiPeeved",
+        "name": "Nikoji Peeved",
+        "type": "image",
+        "src": "magnets/nikoji/nikojiPeeved.png",
+        "size": { "width": 64, "height": 64 },
+        "position": { "x": 100, "y": 100 }
+    },
+    {
+        "id": "nikojiSleep",
+        "name": "Nikoji Sleep",
+        "type": "image",
+        "src": "magnets/nikoji/nikojiSleep.png",
+        "size": { "width": 64, "height": 64 },
+        "position": { "x": 100, "y": 100 }
+    },
+    {
+        "id": "nikojiEvil",
+        "name": "Nikoji Evil",
+        "type": "image",
+        "src": "magnets/nikoji/nikojiEvil.png",
+        "size": { "width": 64, "height": 64 },
+        "position": { "x": 100, "y": 100 }
+    },
+    {
+        "id": "pentagon",
+        "name": "Pentagon",
+        "type": "image",
+        "src": "magnets/pentagon.png",
+        "size": { "width": 50, "height": 50 },
+        "position": { "x": 100, "y": 100 }
+    },
+    {
+        "id": "starMagnet",
+        "name": "Star Magnet",
+        "type": "image",
+        "src": "magnets/star.png",
+        "size": { "width": 50, "height": 50 },
+        "position": { "x": 100, "y": 100 }
+    },
+    {
+        "id": "nikojiShocked",
+        "name": "Nikoji Shocked",
+        "type": "image",
+        "src": "magnets/nikoji/nikojiShocked.png",
+        "size": { "width": 64, "height": 64 },
+        "position": { "x": 100, "y": 100 }
+    },
+    {
+        "id": "heart",
+        "name": "Heart",
+        "type": "image",
+        "src": "magnets/heart.png",
+        "size": { "width": 50, "height": 50 },
+        "position": { "x": 100, "y": 100 }
+    },
+    {
+        "id": "bread",
+        "name": "Bread",
+        "type": "image",
+        "src": "magnets/bread/bread.png",
+        "size": { "width": 136, "height": 150 },
+        "position": { "x": 100, "y": 100 }
+    }
+]
