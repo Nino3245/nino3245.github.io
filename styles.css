@@ -9,3 +9,66 @@ h1 {
 p {
   color: white;
 }
+
+@font-face {
+    font-family: mojangles;
+    src: url("mojangles.ttf");
+}
+
+
+.logo {
+    max-width: 500px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    display: block;
+    image-rendering: auto;
+}
+
+.splash {
+    text-shadow: 2px 2px rgb(63, 63, 0);
+    display: inline-block;
+    text-decoration: none;
+    position: absolute;
+    color: yellow;
+    text-align: center;
+    font-size: 24px;
+    writing-mode: horizontal-tb;
+    z-index: 999;
+    font-family: mojangles;
+    max-width: 550px;
+	pointer-events: none;
+
+    bottom: 50px;
+    right: 40px;
+    transform: rotate(-20deg) translate(50%, 50%);
+    transform-origin: right bottom;
+    animation: splash-animation 0.25s linear infinite alternate;
+    visibility: hidden;
+}
+
+.splash a,
+.splash a:visited,
+.splash a:link,
+.splash a:active {
+    color: yellow;
+    text-decoration: none;
+	pointer-events: auto;
+	cursor: pointer; /**so that user knows they can click*/
+}
+
+@keyframes splash-animation {
+    from {
+        transform: scale(0.92) rotate(-20deg) translate(50%, 50%);
+    }
+
+    to {
+        transform: scale(1) rotate(-20deg) translate(50%, 50%);
+    }
+}
